@@ -1,0 +1,1 @@
+External php file for error handling
