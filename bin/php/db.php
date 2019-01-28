@@ -9,7 +9,7 @@
 			echo "failed to connect\r\n";
 		
 		}else{
-			echo "Connection to database\r\n";
+			echo "Connection to database established\r\n";
 			return $serverLink;
 		}
 	}	

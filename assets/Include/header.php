@@ -1,9 +1,4 @@
-<?php
 
+<div class="header">
 
-?>
-
-<main>
-
-
-</main>
+</div>
