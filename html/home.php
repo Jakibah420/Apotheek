@@ -1,20 +1,26 @@
-<html>
-    <meta charset="utf-8">    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="../bin/scripts/login.js"></script>
-    <? include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php"); ?>
-    <? require($_SERVER['DOCUMENT_ROOT']."/Apotheek/assets/include/header.php"); ?>
-    <?php 
-    include_once dirname(__DIR__).'/bin/php/handlers/dbh.php'; //DB HANDLER
-    ?>
-
-    
-    <body>
-    
-
-        
-    <h1><?php connect(); ?></h1>
-
-    </body>
-
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>appotheek schut</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="dit is de appotheek van meneer schut">
+		<meta name="keywords" content="schut, appotheek, medicijnen, ">
+		<meta name="author" content="Casey Kruijer">
+		<meta name="viewport"content="width=device-witdth, initial-scale=1-0">			
+		<link rel="stylesheet" href="../bin/css/home.css">
+	</head>
+	<body>
+		<header class="header">
+			<img src="..\assets\img\logo.png" alt="hier staat ons logo">
+		</header>
+			<div class="topnav">
+				<a class="active" href="#home">Home</a>
+				<a href="">Service</a>
+				<a href="">Medicijn</a>
+				<a href="">Bestel</a>
+				<a href="">Contact</a>
+				<a href="login.php">Log in</a>
+			</div>
+		<p>appotheek staat in aalsmeerderbrug</p>
+	</body>
 </html>
