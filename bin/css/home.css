@@ -1,0 +1,50 @@
+html{
+	front-family: century gothic;
+	}
+	
+body {
+	margin:0;
+  width: 100%;
+  height: 100%;
+  }
+  
+ .topnav {
+  margin:0;
+  overflow: hidden;
+  background-color: #3e4797;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #b3d45e;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #81a32b;
+  color: white;
+}
+
+#logo{
+	width:20%;
+	height:20%;
+}
+
+#google{
+	float: right;
+}
+
+.footer {
+	height:1%;
+    text-align: center;
+    background-color: #3e4797;
+    color: white;
+}
