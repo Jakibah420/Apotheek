@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<header class="header">
-			<img src="..\assets\img\logo.png" alt="hier staat ons logo">
+			<img src="..\assets\img\logo.png" alt="hier staat ons logo" id="logo">
 		</header>
 			<div class="topnav">
 				<a class="active" href="#home">Home</a>
@@ -20,7 +20,10 @@
 				<a href="">Bestel</a>
 				<a href="">Contact</a>
 				<a href="login.php">Log in</a>
+			</div>	
+			<p>appotheek staat in aalsmeerderbrug</p>
+			<div class="footer">
+				<p>Apotheek schut</p>
 			</div>
-		<p>appotheek staat in aalsmeerderbrug</p>
 	</body>
 </html>
