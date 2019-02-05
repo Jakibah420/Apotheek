@@ -9,6 +9,7 @@ function login(a)
     else
     {
         document.getElementById("loginform").style.display="block";
+        document.getElementById("errform").style.display="none";
         document.getElementById("registerform").style.display="none";
     }
 }    
@@ -27,61 +28,94 @@ function submit()
     });
 };
 
+var AllowedChars = []
+
 function checkForm(form)
   {
+    form.username.style.border="2px solid #bbb";
+    form.password.style.border="2px solid #bbb";
+    form.password2.style.border="2px solid #bbb";
+    
     if(form.username.value == "") {
-      alert("Email mag niet blank zijn!");
-      form.username.focus();
+      document.getElementById("errform").style.display="block";
+      document.getElementById("err1").style.display="block";document.getElementById("err2").style.display="none";document.getElementById("err3").style.display="none";document.getElementById("err4").style.display="none";document.getElementById("err5").style.display="none";document.getElementById("err6").style.display="none";document.getElementById("err7").style.display="none";document.getElementById("err8").style.display="none";document.getElementById("err9").style.display="none";document.getElementById("err10").style.display="none";
+      document.getElementById("err1").style.color="red";
+      
+      form.username.style.border="2px solid rgb(184, 89, 89)";
       return false;
     }
-    re = /^\w+$/;
+
+    var substr = str.replace(form.username.value, [/a-z/,/A-Z/,/0-9/,'-','_','.','@'])
     if(!re.test(form.username.value)) {
-      alert("Email mag geen speciale tekens of spaties bevatten!");
-      form.username.focus();
+      document.getElementById("errform").style.display="block";
+      document.getElementById("err2").style.display="block";
+      document.getElementById("err2").style.color="red";
+      form.username.style.border="2px solid rgb(184, 89, 89)";
+      return false;
+    }
+
+    re = /@./;
+    if(!re.test(form.username.value)) {
+      document.getElementById("errform").style.display="block";
+      document.getElementById("err10").style.display="block";
+      document.getElementById("err10").style.color="red";
+      form.username.style.border="2px solid rgb(184, 89, 89)";
       return false;
     }
 
     if(form.password.value != "" && form.password.value == form.password2.value) {
       if(form.password.value.length < 6) {
-        alert("Wachtwoord moet minimaal 6 karakters bevatten!");
-        form.password.focus();
+        document.getElementById("errform").style.display="block";
+        document.getElementById("err3").style.display="block";
+        document.getElementById("err3").style.color="red";
+        form.username.style.border="2px solid rgb(184, 89, 89)";
         return false;
       }
       if(form.password.value == form.username.value) {
-        alert("Email mag NIET hetzelfde zijn als het wachtwoord!");
-        form.password.focus();
+        document.getElementById("errform").style.display="block";
+        document.getElementById("err4").style.display="block";
+        document.getElementById("err4").style.color="red";
+        form.password.style.border="2px solid rgb(184, 89, 89)";
         return false;
       }
       if(form.password.value != form.password2.value) {
-        alert("Wachtwoorden zijn niet hetzelfde!")
-        form.password2.focus();
+        document.getElementById("errform").style.display="block";
+        document.getElementById("err5").style.display="block";
+        document.getElementById("err5").style.color="red";
+        form.password.style.border="2px solid rgb(184, 89, 89)";
         return false;
       }
       re = /[0-9]/;
       if(!re.test(form.password.value)) {
-        alert("Wachtwoord moet minstens 1 nummer bevatten (0-9)");
-        form.password.focus();
+        document.getElementById("errform").style.display="block";
+        document.getElementById("err6").style.display="block";
+        document.getElementById("err6").style.color="red";
+        form.password.style.border="2px solid rgb(184, 89, 89)";
         return false;
       }
       re = /[a-z]/;
       if(!re.test(form.password.value)) {
-        alert("Wachtwoord moet minimaal 1 kleine letter bevatten (a-z)");
-        form.password.focus();
+        document.getElementById("errform").style.display="block";
+        document.getElementById("err7").style.display="block";
+        document.getElementById("err7").style.color="red";
+        form.password.style.border="2px solid rgb(184, 89, 89)";
         return false;
       }
       re = /[A-Z]/;
       if(!re.test(form.password.value)) {
-        alert("Wachtwoord moet minimaal 1 hoofd letter bevatten (A-Z)");
-        form.password.focus();
+        document.getElementById("errform").style.display="block";
+        document.getElementById("err8").style.display="block";
+        document.getElementById("err8").style.color="red";
+        form.password2.style.border="2px solid rgb(184, 89, 89)";
         return false;
       }
     } else {
-      alert("Wachtwoorden zijn niet hetzelfde!");
-      form.password.focus();
+      document.getElementById("errform").style.display="block";
+      document.getElementById("err9").style.display="block";
+      document.getElementById("err9").style.color="red";
+      form.password2.style.border="2px solid rgb(184, 89, 89)";
       return false;
     }
-
-    alert("You entered a valid password: " + form.password.value);
     return true;
   }
 

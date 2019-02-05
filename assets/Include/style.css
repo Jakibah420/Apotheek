@@ -18,8 +18,9 @@ a:link{color:black;}a:visited{color:black}a:hover{color:#87da66;}
     background-color:#7ac55c;
 }
 
+
 /*Form Code*/
-.loginregisterform{position:relative;max-width:30%;min-height:60%;max-height:200%;margin: auto;margin-top:5%;overflow: none;}
+.loginregisterform{position:relative;max-width:30%;min-height:60%;max-height:60%;margin: auto;margin-top:5%;overflow: none;}
 .loginform{width:100%;height:50%;position:absolute;bottom: 30%;text-align:center;}
 .registerform{display:none;width:100%;height:70%;position:absolute;bottom: 10%;text-align:center;}
 .login{padding:10px;}.loginbutton{outline:none;font-family:"Century Gothic";font-size:4mm;max-width:100%;min-width:50%;position:absolute;top:0;left:0;border: none;height: 10%;background-color:#7ac55c;color:white;}.registerbutton{outline:none;font-family:"Century Gothic";font-size:4mm;max-width:100%;min-width:50%;position:absolute;top:0;right:0;border: none;height: 10%;background-color:#7ac55c;color:white;}
@@ -30,12 +31,16 @@ input[type=password]{text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-
 input[type=password]:focus{border:2px solid #bbb;}
 input[type=submit]{bottom:0;background-color: #7ac55cd3;color:white;border:none;width:45%;height:40px;}
 input[type=submit]:hover{background-color: #63a14b}
-.label{max-width:100%;text-align:center;margin-top:10px;}.label2{max-width:100%;text-align:center;margin-top:10px;}.label3{max-width:100%;text-align:center;margin-top:15px;}
+.label{max-width:100%;text-align:center;margin-top:10px;}.label2{max-width:100%;text-align:center;margin-top:10px;}.label3{max-width:100%;text-align:center;margin-top:15px;}.errlabel{display:none;max-width:100%;text-align:center;margin-top:10px;}
+.labelred{max-width:100%;text-align:center;margin-top:-21px;color:rgb(255, 71, 71);}.label2{max-width:100%;text-align:center;margin-top:10px;}.label3{max-width:100%;text-align:center;margin-top:15px;}
 .regwrap{width:100%;}
 .reginput[type=text]{margin-left:0;bottom:0%;text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;margin-bottom:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;-webkit-transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
 .reginput[type=text]:focus{border:2px solid #bbb;}
 .reginput[type=password]{text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;-webkit-transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
 .reginput[type=password]:focus{border:2px solid #bbb;}
+.errorformhead{display:none;float:right;position:relative;min-height:60%;max-height:60%;left:-10%;overflow: none;}.errorform{overflow:auto;position:absolute;width:100%;height:50%;text-align:center;}.errorformheader{position:relative;width:200px;font-family:"Century Gothic";font-size:4mm;color:white;top:0;left:0;text-align:center;height:6%;background-color:#7ac55c;}
 
-.contactbutton:hover{background-color:#86592d;transition:0.2s;}.contactbutton{padding-bottom:5px;padding-top:5px;width:100%;bottom:0;cursor:pointer;}
+.contactbutton:hover{max-height:60%;background-color:#86592d;transition:0.2s;}.contactbutton{padding-bottom:5px;padding-top:5px;width:100%;bottom:0;cursor:pointer;}
 textarea{transition:0.2s;margin:0 0;width:90%;height:100px;box-sizing:border-box;border:2px solid #cc99667a;;border-radius:2px;background-color:hsla(0,100%,100%,0.3);resize:none;outline:none;}textarea:focus{border:2px solid #bbb;}
+
+.small{font-size:3mm;}
