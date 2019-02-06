@@ -44,8 +44,8 @@ function checkForm(form)
       form.username.style.border="2px solid rgb(184, 89, 89)";
       return false;
     }
-
-    var substr = str.replace(form.username.value, [/a-z/,/A-Z/,/0-9/,'-','_','.','@'])
+    re = /w+$/;
+    xe = (re tps
     if(!re.test(form.username.value)) {
       document.getElementById("errform").style.display="block";
       document.getElementById("err2").style.display="block";
