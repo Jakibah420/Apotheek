@@ -44,8 +44,13 @@ function checkForm(form)
       form.username.style.border="2px solid rgb(184, 89, 89)";
       return false;
     }
+<<<<<<< HEAD
 
     /*re = /^\w+$/;
+=======
+    re = /w+$/;
+    xe = (re tps
+>>>>>>> 74d213ae3500838fb7c0c7149a33d1117f5d8eed
     if(!re.test(form.username.value)) {
       document.getElementById("errform").style.display="block";
       document.getElementById("err2").style.display="block";
