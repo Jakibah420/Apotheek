@@ -45,14 +45,14 @@ function checkForm(form)
       return false;
     }
 
-    var substr = str.replace(form.username.value, [/a-z/,/A-Z/,/0-9/,'-','_','.','@'])
+    /*re = /^\w+$/;
     if(!re.test(form.username.value)) {
       document.getElementById("errform").style.display="block";
       document.getElementById("err2").style.display="block";
       document.getElementById("err2").style.color="red";
       form.username.style.border="2px solid rgb(184, 89, 89)";
       return false;
-    }
+    }*/
 
     re = /@./;
     if(!re.test(form.username.value)) {
@@ -78,7 +78,7 @@ function checkForm(form)
         form.password.style.border="2px solid rgb(184, 89, 89)";
         return false;
       }
-      if(form.password.value != form.password2.value) {
+      if(form.password.value !== form.password2.value) {
         document.getElementById("errform").style.display="block";
         document.getElementById("err5").style.display="block";
         document.getElementById("err5").style.color="red";

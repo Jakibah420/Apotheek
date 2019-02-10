@@ -15,7 +15,7 @@
         <div class="errorformheader"></div>
         <div class="errorform">
         <div id="err1" class="errlabel"><label class="label">* Email mag niet blank zijn!</label></div>
-        <div id="err2" class="errlabel"><label class="label">* Email mag geen speciale tekens of spaties bevatten!</label></div>
+        <!--<div id="err2" class="errlabel"><label class="label">* Email mag geen speciale tekens of spaties bevatten!</label></div>-->
         <div id="err3" class="errlabel"><label class="label">* Wachtwoord moet minimaal 6 karakters bevatten!</label></div>
         <div id="err4" class="errlabel"><label class="label">* Email mag NIET hetzelfde zijn als het wachtwoord!</label></div>
         <div id="err5" class="errlabel"><label class="label">* Wachtwoorden zijn niet hetzelfde!</label></div>
