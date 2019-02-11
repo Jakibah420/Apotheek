@@ -28,8 +28,8 @@
         if($serverLink == true){
             $sql = "CREATE TABLE users (
             id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-            email VARCHAR(50) NOT NULL,
-            pass VARCHAR(30) NOT NULL,
+            email VARCHAR(100) NOT NULL,
+            pass VARCHAR(100) NOT NULL,
             reg_date TIMESTAMP
             )";
                 

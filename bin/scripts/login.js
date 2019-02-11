@@ -1,4 +1,3 @@
-
 function login(a)
 {
     if(a==1)
@@ -36,7 +35,7 @@ function checkForm(form)
     form.password.style.border="2px solid #bbb";
     form.password2.style.border="2px solid #bbb";
     
-    if(form.username.value == "") {
+    /*if(form.username.value == "") {
       document.getElementById("errform").style.display="block";
       document.getElementById("err1").style.display="block";document.getElementById("err2").style.display="none";document.getElementById("err3").style.display="none";document.getElementById("err4").style.display="none";document.getElementById("err5").style.display="none";document.getElementById("err6").style.display="none";document.getElementById("err7").style.display="none";document.getElementById("err8").style.display="none";document.getElementById("err9").style.display="none";document.getElementById("err10").style.display="none";
       document.getElementById("err1").style.color="red";
@@ -44,13 +43,8 @@ function checkForm(form)
       form.username.style.border="2px solid rgb(184, 89, 89)";
       return false;
     }
-<<<<<<< HEAD
 
-    /*re = /^\w+$/;
-=======
-    re = /w+$/;
-    xe = (re tps
->>>>>>> 74d213ae3500838fb7c0c7149a33d1117f5d8eed
+    re = /^\w+$/;
     if(!re.test(form.username.value)) {
       document.getElementById("errform").style.display="block";
       document.getElementById("err2").style.display="block";
@@ -75,6 +69,12 @@ function checkForm(form)
         document.getElementById("err3").style.color="red";
         form.username.style.border="2px solid rgb(184, 89, 89)";
         return false;
+      }
+      if(form.username.lenght < 1){
+        document.getElementById("errform").style.display="block";
+        document.getElementById("err11").style.display="block";
+        document.getElementById("err11").style.color="red";
+        form.username.style.border="2px solid rgb(184, 89, 89)";
       }
       if(form.password.value == form.username.value) {
         document.getElementById("errform").style.display="block";

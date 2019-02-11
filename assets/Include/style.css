@@ -32,7 +32,7 @@ input[type=password]:focus{border:2px solid #bbb;}
 input[type=submit]{bottom:0;background-color: #7ac55cd3;color:white;border:none;width:45%;height:40px;}
 input[type=submit]:hover{background-color: #63a14b}
 .label{max-width:100%;text-align:center;margin-top:10px;}.label2{max-width:100%;text-align:center;margin-top:10px;}.label3{max-width:100%;text-align:center;margin-top:15px;}.errlabel{display:none;max-width:100%;text-align:center;margin-top:10px;}
-.labelred{max-width:100%;text-align:center;margin-top:-21px;color:rgb(255, 71, 71);}.label2{max-width:100%;text-align:center;margin-top:10px;}.label3{max-width:100%;text-align:center;margin-top:15px;}
+.labelred{display:none;max-width:100%;text-align:center;margin-top:-21px;color:rgb(255, 71, 71);}.label2{max-width:100%;text-align:center;margin-top:10px;}.label3{max-width:100%;text-align:center;margin-top:15px;}
 .regwrap{width:100%;}
 .reginput[type=text]{margin-left:0;bottom:0%;text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;margin-bottom:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;-webkit-transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
 .reginput[type=text]:focus{border:2px solid #bbb;}

@@ -2,14 +2,13 @@
     <meta charset="utf-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="../bin/scripts/login.js"></script>
-    <? include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php"); ?>
-    <? require($_SERVER['DOCUMENT_ROOT']."/Apotheek/assets/include/header.php"); ?>
+
     <?php 
-    include_once dirname(__DIR__).'/bin/php/handlers/dbh.php'; //DB HANDLER
+    include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php");
+    require($_SERVER['DOCUMENT_ROOT']."/Apotheek/assets/include/header.php");
+    include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/db.php");
     ?>
 
-
-    
     <body>
     <div id="errform" class="errorformhead">
         <div class="errorformheader"></div>
@@ -30,39 +29,37 @@
         <button class="loginbutton" onclick="login(2)">login</button>
         <button class="registerbutton" onclick="login(1)">registreer</button>
         <div id="loginform" class="loginform">
-        <form class="login">
+        <form class="login" method="post" action="login.php">
         <div class="regwrap">
-            <div id="LoginErr" class="labelred">Wrong Username/Password</div>
+            <div id="LoginErr" <?php if ($showDivFlag===true){?>style="display:inline-block"<?php } ?> class="labelred">Verkeerd email adress/Wachtwoord</div>
+            <div id="LoginErr" <?php if ($showPassFlag===true){?>style="display:inline-block"<?php } ?> class="labelred">Geen wachtwoord ingevoerd</div>
+            <div id="LoginErr" <?php if ($showEmFlag===true){?>style="display:inline-block"<?php } ?> class="labelred">Voer eerst uw gebruikersgegevens in voordat u inlogt!</div>
             <div class="label"><label class="label">Email</label></div>
-            <input type="text" id="username" name="username/email">
+            <input type="text" id="username" name="logemail">
             <div class="label"><label class="label">Wachtwoord</label></div>
-            <input type="password" id="password" name="password">
+            <input type="password" id="password" name="logpassword">
             <div class="label"><a class="small" href="forgot">Wachtwoord Vergeten</a></div>
             <div class="label3"></div>
         </div>
-            <input type="submit" value="Login"/>
+            <input type="submit" name="login_user" value="Login"/>
         </form>
         </div>
         <div id="registerform" class="registerform">
         
-        <form class="login" onsubmit="return checkForm(this);">
+        <form class="login" method="post" action="login.php" onsubmit="return checkForm(this);">
         <div class="regwrap">
             <div class="label2"><label class="label">Email</label></div>
-            <input class="reginput" type="text" id="username" name="username/email">
+            <input class="reginput" type="text" id="username" name="regemail">
             <div class="label2"><label class="label">Wachtwoord</label></div>
-            <input class="reginput" type="password" id="password" name="password">
+            <input class="reginput" type="password" id="password" name="regpassword">
             <div class="label2"><label class="label">Herhaal Wachtwoord</label></div>
-            <input class="reginput" type="password" id="password2" name="password2">
+            <input class="reginput" type="password" id="password2" name="regpassword2">
             <div class="label2"></div>
         </div>
-            <input type="submit" value="Registreer"/>
+            <input type="submit" name="reg_user" value="Registreer"/>
         </form>
         </div> 
     </div>
-    
-
-        
-    <h1><?php connect(); ?></h1>
 
     </body>
 
