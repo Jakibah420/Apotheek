@@ -36,7 +36,6 @@ if (isset($_POST['reg_user'])) {
   			  VALUES('$email', '$regepassword')";
   	mysqli_query($serverLink, $query);
   	$_SESSION['email'] = $email;
-  	$_SESSION['success'] = "You are now logged in";
   	header('location: #reguserint '); //NAAR USER INTERFACE!
    }
 }
@@ -64,8 +63,7 @@ if (isset($_POST['login_user'])) {
 		$count = mysqli_num_rows($result);
 		if ($count == 1) {
 		  $_SESSION['username'] = $logemail;
-		  $_SESSION['success'] = "You are now logged in";
-		  header('location: loginsucces.php');
+		  header('location: loginsucces.php'); //NAAR USER INTERFACE!
 		}else {
 			$showDivFlag=true;
 		}
