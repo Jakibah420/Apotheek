@@ -1,3 +1,12 @@
 <?php
-	include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php"); //Handler komt hier voor database
+	$email    = "";
+	$showRegMailFlag=false;
+	$showEmFlag=false;
+	$showPassFlag=false;
+	$showDivFlag=false;
+	$errors = array();
+	$host = "127.0.0.1:3306";
+	$username = "root";
+	$password = "";
+	$db = "db";
 ?>

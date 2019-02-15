@@ -1,5 +1,9 @@
+<?php
+include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
+?>
+
 <!doctype html>
-<html lang="en">
+<html lang="nl">
 	<head>
 		<title>appotheek schut</title>
 		<meta charset="UTF-8">
@@ -17,6 +21,7 @@
 		</header>
 		
 		<div class="topnav">
+		<h1>Welcome <?php echo $login_session; ?></h1> 
 			<a class="active" href="#home">Home</a>
 			<a href="">Service</a>
 			<a href="">Medicijn</a>

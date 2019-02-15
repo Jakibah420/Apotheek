@@ -1,13 +1,13 @@
 /* Main CSS code. Website layout n stuff*/
-html{max-height:100%;font-family:"Century Gothic";-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
+html{max-height:100%;font-family:"Century Gothic";background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 body {background-color:rgb(247, 245, 245);margin:0;}
 .contentwrapper {margin-left:20%;margin-top:0.5%;width:80%;height:97%;}
 .wrapper{min-height:100%;position:relative;}
 .forcedmarg{width:100%;height:10%;}
 .blur{-webkit-filter: blur(4px);filter: blur(4px);}
 ::-webkit-scrollbar{width:0.5%;height:1%;}::-webkit-scrollbar-track{background-color:hsla(0,100%,100%,0.3);}::-webkit-scrollbar-thumb{background:#87da66;transition:0.2s;}::-webkit-scrollbar-thumb:hover{background:#86592d;}
-::-moz-selection{background-color:#87da6686;color:white;}::selection{background-color:#87da6686;color:white;}
-a:link{color:black;}a:visited{color:black}a:hover{color:#87da66;}
+::-moz-selection{background-color:#6aad5086;color:white;}::selection{background-color:#6aad5086;color:white;}
+a:link{color:black;}a:visited{color:black}a:hover{color:#66a54d;}
 .forcedopac{opacity:0.8;}
 .shadow{box-shadow:1% 1% 1% black;}
 
@@ -15,28 +15,28 @@ a:link{color:black;}a:visited{color:black}a:hover{color:#87da66;}
 .header{
     width: 100%;
     height: 7%;
-    background-color:#7ac55c;
+    background-color:#619e49;
 }
 
 
 /*Form Code*/
-.loginregisterform{position:relative;max-width:30%;min-height:60%;max-height:60%;margin: auto;margin-top:5%;overflow: none;}
+.loginregisterform{overflow:auto;border-radius: 60px;background:rgba(146, 146, 146, 0.288);position:relative;max-width:29%;min-height:65%;max-height:80%;margin: auto;margin-top:5%;overflow: none;}
 .loginform{width:100%;height:50%;position:absolute;bottom: 30%;text-align:center;}
 .registerform{display:none;width:100%;height:70%;position:absolute;bottom: 10%;text-align:center;}
-.login{padding:10px;}.loginbutton{outline:none;font-family:"Century Gothic";font-size:4mm;max-width:100%;min-width:50%;position:absolute;top:0;left:0;border: none;height: 10%;background-color:#7ac55c;color:white;}.registerbutton{outline:none;font-family:"Century Gothic";font-size:4mm;max-width:100%;min-width:50%;position:absolute;top:0;right:0;border: none;height: 10%;background-color:#7ac55c;color:white;}
-.loginbutton:hover{background-color: #63a14b;}.registerbutton:hover{background-color: #63a14b;}
-input[type=text]{bottom:0%;text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;margin-bottom:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;-webkit-transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
+.login{padding:10px;}.loginbutton{outline:none;font-family:"Century Gothic";font-size:4mm;max-width:100%;min-width:50%;position:absolute;top:0;left:0;border: none;height: 10%;background-color:#619e49;color:white;}.registerbutton{outline:none;font-family:"Century Gothic";font-size:4mm;max-width:100%;min-width:50%;position:absolute;top:0;right:0;border: none;height: 10%;background-color:#619e49;color:white;}
+.loginbutton:hover{background-color: #7cc75e;}.registerbutton:hover{background-color: #7cc75e;}
+input[type=text]{bottom:0%;text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;margin-bottom:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
 input[type=text]:focus{border:2px solid #bbb;}
-input[type=password]{text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;-webkit-transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
+input[type=password]{text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
 input[type=password]:focus{border:2px solid #bbb;}
-input[type=submit]{bottom:0;background-color: #7ac55cd3;color:white;border:none;width:45%;height:40px;}
-input[type=submit]:hover{background-color: #63a14b}
+input[type=submit]{bottom:0;background-color: #619e49;color:white;border:none;width:45%;height:40px;}
+input[type=submit]:hover{background-color: #7cc75e}
 .label{max-width:100%;text-align:center;margin-top:10px;}.label2{max-width:100%;text-align:center;margin-top:10px;}.label3{max-width:100%;text-align:center;margin-top:15px;}.errlabel{display:none;max-width:100%;text-align:center;margin-top:10px;}
 .labelred{display:none;max-width:100%;text-align:center;margin-top:-21px;color:rgb(255, 71, 71);}.label2{max-width:100%;text-align:center;margin-top:10px;}.label3{max-width:100%;text-align:center;margin-top:15px;}
 .regwrap{width:100%;}
-.reginput[type=text]{margin-left:0;bottom:0%;text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;margin-bottom:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;-webkit-transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
+.reginput[type=text]{margin-left:0;bottom:0%;text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;margin-bottom:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
 .reginput[type=text]:focus{border:2px solid #bbb;}
-.reginput[type=password]{text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;-webkit-transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
+.reginput[type=password]{text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
 .reginput[type=password]:focus{border:2px solid #bbb;}
 .errorformhead{display:none;float:right;position:relative;min-height:60%;max-height:60%;left:-10%;overflow: none;}.errorform{overflow:auto;position:absolute;width:100%;height:50%;text-align:center;}.errorformheader{position:relative;width:200px;font-family:"Century Gothic";font-size:4mm;color:white;top:0;left:0;text-align:center;height:6%;background-color:#7ac55c;}
 

@@ -9,7 +9,7 @@
     include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/db.php");
     ?>
 
-    <body>
+    <body style="background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/Apotheek/assets/img/login.jpg');background-repeat:no-repeat;background-size: cover;">
     <div id="errform" class="errorformhead">
         <div class="errorformheader"></div>
         <div class="errorform">
@@ -31,6 +31,7 @@
         <div id="loginform" class="loginform">
         <form class="login" method="post" action="login.php">
         <div class="regwrap">
+        <div id="LoginErr" <?php if ($showRegMailFlag===true){?>style="display:inline-block"<?php } ?> class="labelred">Email al in gebruik!</div>
             <div id="LoginErr" <?php if ($showDivFlag===true){?>style="display:inline-block"<?php } ?> class="labelred">Verkeerd email adress/Wachtwoord</div>
             <div id="LoginErr" <?php if ($showPassFlag===true){?>style="display:inline-block"<?php } ?> class="labelred">Geen wachtwoord ingevoerd</div>
             <div id="LoginErr" <?php if ($showEmFlag===true){?>style="display:inline-block"<?php } ?> class="labelred">Voer eerst uw gebruikersgegevens in voordat u inlogt!</div>
