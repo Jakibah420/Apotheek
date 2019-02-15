@@ -43,7 +43,8 @@
 				bsn BIGINT NOT NULL,
 				adres VARCHAR(100) NOT NULL,
 				activation_date TIMESTAMP,
-				birthdate DATE
+				birthdate DATE,
+				telephone LONGTEXT
 				)";
 				  if ($serverLink->query($sql) === TRUE) {
 					echo "Table userInfo created successfully";
