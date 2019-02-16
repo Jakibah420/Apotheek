@@ -5,7 +5,7 @@ include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
 <!doctype html>
 <html lang="nl">
 	<head>
-		<title>appotheek schut</title>
+		<title>Appotheek Schut</title>
 		<meta charset="UTF-8">
 		<meta name="description" content="dit is het appotheek van meneer schut">
 		<meta name="keywords" content="schut, appotheek, medicijnen, ">
@@ -21,7 +21,7 @@ include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
 		</header>
 		
 		<div class="topnav">
-		<h1>Welcome <?php echo $login_session; ?></h1> 
+		<h1>Welcome <?php echo $sname_session, " ", $name_session; ?></h1> 
 			<a class="active" href="#home">Home</a>
 			<a href="">Service</a>
 			<a href="">Medicijn</a>

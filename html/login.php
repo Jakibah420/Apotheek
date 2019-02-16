@@ -7,12 +7,11 @@
     include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php");
     require($_SERVER['DOCUMENT_ROOT']."/Apotheek/assets/include/header.php");
     include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/db.php");
+    $pagetitle = ucwords(basename(__FILE__, '.php'));
 
-    if(isset($_SESSION['username'])){
-        header("location:home.php");
-        die();
-    }
+    if(isset($_SESSION['username'])){header("location:home.php");die();}
     ?>
+    <title><?php echo $pagetitle?></title>
 
     <body style="background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/Apotheek/assets/img/login.jpg');background-repeat:no-repeat;background-size: cover;">
     <div id="errform" class="errorformhead">
@@ -57,9 +56,9 @@
             <div class="label2"><label class="label">Email</label></div>
             <input class="reginput" type="text" id="username" name="regemail">
             <div class="label2"><label class="label">Wachtwoord</label></div>
-            <input class="reginput" type="password" id="password" name="regpassword">
+            <input class="reginput" type="password" id="password" name="regpassword" maxlength="10">
             <div class="label2"><label class="label">Herhaal Wachtwoord</label></div>
-            <input class="reginput" type="password" id="password2" name="regpassword2">
+            <input class="reginput" type="password" id="password2" name="regpassword2" maxlength="10">
             <div class="label2"></div>
         </div>
             <input type="submit" name="reg_user" value="Registreer"/>

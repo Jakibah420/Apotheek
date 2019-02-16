@@ -29,7 +29,7 @@
             $sql = "CREATE TABLE users (
             id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
             email VARCHAR(100) NOT NULL,
-            pass VARCHAR(100) NOT NULL,
+            pass VARCHAR(500) NOT NULL,
             reg_date TIMESTAMP
             )";
                 
@@ -39,13 +39,17 @@
 				$sql ="CREATE TABLE userInfo(
 				id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 				email VARCHAR(100) NOT NULL,
-				name VARCHAR(100) NOT NULL,
+				nam VARCHAR(100) NOT NULL,
+                ename VARCHAR(100) NOT NULL,
 				surname VARCHAR(100) NOT NULL,
-				bsn BIGINT NOT NULL,
-				adres VARCHAR(100) NOT NULL,
-				activation_date TIMESTAMP,
-				birthdate DATE,
-				telephone INT(10)
+                bsn VARCHAR(100) NOT NULL,
+                gender VARCHAR(100) NOT NULL,
+				mobilephone INT(10) NOT NULL,
+                phone VARCHAR(100) NOT NULL,
+                adres VARCHAR(100) NOT NULL,
+                postal VARCHAR(100) NOT NULL,
+                birthdate DATE,
+				activation_date TIMESTAMP
 				)";
 				  if ($serverLink->query($sql) === TRUE) {
 					echo "Table userInfo created successfully";
