@@ -1,21 +1,27 @@
 /* Main CSS code. Website layout n stuff*/
-html{max-height:100%;font-family:"Century Gothic";background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
-body {background-color:rgb(247, 245, 245);margin:0;}
+html{background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/Apotheek/assets/img/login.jpg');background-repeat:no-repeat;max-height:100%;font-family:"Century Gothic";background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
+body {margin:0;}
 .contentwrapper {margin-left:20%;margin-top:0.5%;width:80%;height:97%;}
 .wrapper{min-height:100%;position:relative;}
 .forcedmarg{width:100%;height:10%;}
 .blur{-webkit-filter: blur(4px);filter: blur(4px);}
-::-webkit-scrollbar{width:0.5%;height:1%;}::-webkit-scrollbar-track{background-color:hsla(0,100%,100%,0.3);}::-webkit-scrollbar-thumb{background:#87da66;transition:0.2s;}::-webkit-scrollbar-thumb:hover{background:#86592d;}
+::-webkit-scrollbar{width:0.5%;height:1%;}::-webkit-scrollbar-track{background-color:hsla(0,100%,100%,0.3);}::-webkit-scrollbar-thumb{background:#81A32B;transition:0.2s;}::-webkit-scrollbar-thumb:hover{background:rgb(153, 194, 52);}
 ::-moz-selection{background-color:#6aad5086;color:white;}::selection{background-color:#6aad5086;color:white;}
-a:link{color:black;}a:visited{color:black}a:hover{color:#66a54d;}
+a:link{color:black;}a:visited{color:black}a:hover{color:rgb(91, 116, 29);}
 .forcedopac{opacity:0.8;}
 .shadow{box-shadow:1% 1% 1% black;}
 
 
 .header{
     width: 100%;
-    height: 7%;
-    background-color:#619e49;
+    height: 50px;
+    background-color:#81A32B;
+}
+.Session{
+    position:fixed;
+    color:white;
+    top:-20px;
+    right:10px;
 }
 
 
@@ -27,16 +33,16 @@ a:link{color:black;}a:visited{color:black}a:hover{color:#66a54d;}
 
 .loginform{width:100%;height:50%;position:absolute;bottom: 30%;text-align:center;}
 .registerform{display:none;width:100%;height:70%;position:absolute;bottom: 10%;text-align:center;}
-.login{padding:10px;}.loginbutton{outline:none;font-family:"Century Gothic";font-size:4mm;max-width:100%;min-width:50%;position:absolute;top:0;left:0;border: none;height: 10%;background-color:#619e49;color:white;}.registerbutton{outline:none;font-family:"Century Gothic";font-size:4mm;max-width:100%;min-width:50%;position:absolute;top:0;right:0;border: none;height: 10%;background-color:#619e49;color:white;}
-.loginbutton:hover{background-color: #7cc75e;}.registerbutton:hover{background-color: #7cc75e;}
+.login{padding:10px;}.loginbutton{outline:none;font-family:"Century Gothic";font-size:4mm;max-width:100%;min-width:50%;position:absolute;top:0;left:0;border: none;height: 10%;background-color:#81A32B;color:white;}.registerbutton{outline:none;font-family:"Century Gothic";font-size:4mm;max-width:100%;min-width:50%;position:absolute;top:0;right:0;border: none;height: 10%;background-color:#81A32B;color:white;}
+.loginbutton:hover{background-color: rgb(158, 199, 54);}.registerbutton:hover{background-color: rgb(158, 199, 54);}
 input[type=text]{bottom:0%;text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;margin-bottom:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
 input[type=text]:focus{border:2px solid #bbb;}
 input[type=date]{bottom:0%;text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;margin-bottom:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
 input[type=date]:focus{border:2px solid #bbb;}
 input[type=password]{text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
 input[type=password]:focus{border:2px solid #bbb;}
-input[type=submit]{bottom:0;background-color: #619e49;color:white;border:none;width:180px;height:40px;}
-input[type=submit]:hover{background-color: #7cc75e}
+input[type=submit]{bottom:0;background-color: #81A32B;color:white;border:none;width:180px;height:40px;}
+input[type=submit]:hover{background-color: rgb(158, 199, 54);}
 .label{max-width:100%;text-align:center;margin-top:10px;}.label2{max-width:100%;text-align:center;margin-top:10px;}.label3{max-width:100%;text-align:center;margin-top:15px;}.errlabel{display:none;max-width:100%;text-align:center;margin-top:10px;}.label4{max-width:100%;text-align:left;margin-top:10px;}
 .labelred{display:none;max-width:100%;text-align:center;margin-top:-21px;color:rgb(255, 71, 71);}.label2{max-width:100%;text-align:center;margin-top:10px;}.label3{max-width:100%;text-align:center;margin-top:15px;}
 .regwrap{width:100%;}
@@ -44,7 +50,7 @@ input[type=submit]:hover{background-color: #7cc75e}
 .reginput[type=text]:focus{border:2px solid #bbb;}
 .reginput[type=password]{text-align:center;max-width:100%;padding:1% 1% 2.5%;margin-top:10px;box-sizing:border-box;border:2px solid #d1d1d17a;border-radius: 10px;transition:0.5s;transition:0.2s;outline:none;resize:none;background-color:hsla(0,100%,100%,0.3);}
 .reginput[type=password]:focus{border:2px solid #bbb;}
-.errorformhead{display:none;float:right;position:relative;background:rgba(146, 146, 146, 0.288);border-radius:60px;min-height:10%;max-height:60%;left:-20%;overflow: none;}.errorform{overflow:auto;position:absolute;width:100%;height:50%;text-align:center;}.errorformheader{position:relative;width:200px;font-family:"Century Gothic";font-size:4mm;color:white;top:0;left:0;text-align:center;height:50px;background-color:#619e49;}
+.errorformhead{display:none;float:right;position:relative;background:rgba(146, 146, 146, 0.288);border-radius:60px;min-height:10%;max-height:60%;left:-20%;overflow: none;}.errorform{overflow:auto;position:absolute;width:100%;height:50%;text-align:center;}.errorformheader{position:relative;width:200px;font-family:"Century Gothic";font-size:4mm;color:white;top:0;left:0;text-align:center;height:50px;background-color:#81A32B;}
 
 .contactbutton:hover{max-height:60%;background-color:#86592d;transition:0.2s;}.contactbutton{padding-bottom:5px;padding-top:5px;width:100%;bottom:0;cursor:pointer;}
 textarea{transition:0.2s;margin:0 0;width:90%;height:100px;box-sizing:border-box;border:2px solid #cc99667a;;border-radius:2px;background-color:hsla(0,100%,100%,0.3);resize:none;outline:none;}textarea:focus{border:2px solid #bbb;}

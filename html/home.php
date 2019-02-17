@@ -1,33 +1,29 @@
-<?php
-include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
+<?php 
+	include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php");
+    require($_SERVER['DOCUMENT_ROOT']."/Apotheek/assets/include/header.php");
+    include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
+    $pagetitle = ucwords(basename(__FILE__, '.php'));
 ?>
 
-<!doctype html>
-<html lang="nl">
+<html>
 	<head>
-		<title>Appotheek Schut</title>
-		<meta charset="UTF-8">
-		<meta name="description" content="dit is het appotheek van meneer schut">
-		<meta name="keywords" content="schut, appotheek, medicijnen, ">
-		<meta name="author" content="Casey Kruijer">
-		<meta name="viewport"content="width=device-witdth, initial-scale=1-0">			
-		<link rel="stylesheet" href="../bin/css/home.css">
+		<meta charset="utf-8">    
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title><?php echo $pagetitle?></title>
+		<div class="Session">
+		<h1>Welkom <?php if ($gend == "Man") {echo "Dhr. ";} elseif ($gend == "Vrouw") {echo "Mevr. ";} elseif ($gend == "Anders") {echo "Dhr/Mevr ";} else {echo "ERR";}echo $sname_session, " ", $name_session; ?></h1>
+		</div>
 	</head>
 	
 	<body>
-	
-		<header class="header">
-			<img src="..\assets\img\logo.png" alt="hier staat ons logo" id="logo">
-		</header>
 		
 		<div class="topnav">
-		<h1>Welcome <?php echo $sname_session, " ", $name_session; ?></h1> 
 			<a class="active" href="#home">Home</a>
 			<a href="">Service</a>
 			<a href="">Medicijn</a>
 			<a href="">Bestel</a>
 			<a href="">Contact</a>
-			<a href="login.php">Log in</a>
+			<a href="logout.php">Log uit</a>
 		</div>	
 		
 		<div class="content">
