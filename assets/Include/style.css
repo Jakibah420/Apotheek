@@ -14,29 +14,11 @@ a:link{color:black;}a:visited{color:black}a:hover{color:rgb(91, 116, 29);}
 
 /* Content CSS Code*/
 .google{position:relative;margin:4px 6px;float:right;border:solid 2px #81A32B;}
-.googlewrap{
-    display: inline-block;
-    position:absolute;
-    left:5%; /*div locatie*/
-    top:100px; /*div locatie*/
-    border:solid 5px #81A32B;
-    background:rgba(212, 212, 212, 0.171);
-    width:480px;
-    height:200px;
-}
+.googlewrap{display: inline-block;position:absolute;left:5%; /*div locatie*/top:100px; /*div locatie*/border:solid 5px #81A32B;background:rgba(212, 212, 212, 0.171);width:480px;height:200px;}
+.mainpage{display: inline-block;position:absolute;left:45%;top:50px;border:solid 5px #81A32B;border-top:none;background:rgba(212, 212, 212, 0.171);padding-left:10px;width:130px;height:50px;}
 .content1{float:left;border-right: solid 5px rgba(129, 163, 43, 0.418);padding-left:3px;position:relative;width:150px;height:200px;left:0;}
-.content2{display: inline-block;position:absolute;right:5%;top:100px;border:solid 5px #81A32B;width:30%;height:200px;}
-.contentupperf{
-    display: inline-block;
-    position:absolute;
-    left:2.5%; /*div locatie*/
-    bottom:50px; /*div locatie*/
-    border:solid 5px #81A32B;
-    width:95%;
-    height:180px;
-}
-
-
+.content2{display: inline-block;position:absolute;right:5%;top:100px;padding-left:10px;border:solid 5px #81A32B;width:250px;height:200px;}
+.contentupperf{display: inline-block;position:absolute;left:2.5%; /*div locatie*/bottom:10px; /*div locatie*/border:solid 5px #81A32B;width:95%;height:100px;overflow:auto;}
 
 
 /*Form Code*/

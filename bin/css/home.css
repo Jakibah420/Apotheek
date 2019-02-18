@@ -1,0 +1,97 @@
+html{
+	front-family: century gothic;
+	}
+	
+body {
+	margin:0;
+  width: 100%;
+  height: 100%;
+  }
+  
+ .topnav {
+  margin:0;
+  overflow: hidden;
+  box-shadow: 10px 10px 8px #888888;
+  background-color: #3e4797;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #b3d45e;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #81a32b;
+  color: white;
+}
+
+#logo{
+	width:20%;
+	height:20%;
+}
+
+.alles{
+	margin-top:1%;
+	margin-left:2%;
+	color:white;
+	float: left;
+	width: 45%;
+	background-color:#3e4797;
+	text-align:center;
+		
+}
+
+.content {
+	height: 100%;	
+}
+
+#google{
+	float: right;
+	width: 35%;
+	margin-top:1%;
+}
+
+#text{
+	margin-top:2%;
+}
+
+#opening{
+	text-align:center;
+	color:white;
+	height:21%;
+	width:15%;
+	margin-top:10%;
+	margin-left:12%;
+	background-color:#3e4797;
+}
+
+#nieuws{
+	text-align:center;
+	background-color:#3e4797;
+	color:white;
+	width:100%;
+	height:30%;
+	margin-top:5.6%;
+}
+
+#nieuws1{
+	background-color:#3e4797;
+	color:white;
+}
+
+.footer {
+	height:1%;
+    text-align: center;
+    background-color: #3e4797;
+    color: white;
+	margin-top:-1.2%;
+}
