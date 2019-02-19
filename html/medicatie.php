@@ -1,25 +1,50 @@
+<!doctype html>
+<html lang="nl">
+	<head>
+		<title>Appotheek Schut</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="dit is het appotheek van meneer schut">
+		<meta name="keywords" content="schut, appotheek, medicijnen, Aalsmeer ">
+		<meta name="author" content="Jacob Ligthart">
+		<meta name="viewport"content="width=device-witdth, initial-scale=1-0">
+		<link rel="stylesheet" href="/Apotheek/bin/css/medicatie.css">
+		<link rel="icon" type="image/png" href="/Apotheek/assets/img/MiniLogo.png">
+	</head>
 
-<html>
-<head>
-<title>Apotheek Schut</title>
-<link rel="icon" type="image/jpg" href="/Apotheek/assets/img/logo2.png"/>
-<link rel="stylesheet" type="text/css" href="/Apotheek/bin/css/medicatie.css">
-</head>
-<body>
-  <div class="header">ja</div>
-  <div class="main">
-    <div class="medijnen">
-      <div class="medTitle"><h1>Medicatie Overzicht</h1></div>
+	<body>
+
+    <!--||Header||-->
+		<div class="header">
+			<img src="/Apotheek/assets/img/logo2.png" alt="Logo Apotheek Schut" id="logo">
+			<div class="user">
+				<h1>Welcome <?php// echo $sname_session, " ", $name_session; ?></h1>
+			</div>
+		</div>
+
+    <!--||Navigation||-->
+		<div class="topnav">
+			<a href="/Apotheek/html/index.php">Home</a>
+			<a href="/Apotheek/html/#">Service</a>
+			<a class="active" href="#">Medicijnen</a>
+			<a href="/Apotheek/html/#">Bestel</a>
+			<a href="/Apotheek/html/#">Contact</a>
+			<a href="/Apotheek/html/login.php">Log in</a>
+		</div>
+
+      <!--||Main||-->
+      <div class="main">
+        <div class="mainTitle"><h1>Medicijnen</h1></div>
+      <div class="mainContent">
 
       <!--||Medicijnen Lijst 1||-->
       <div class="medLijst">
       <div class="medLijstTitle"><h2>A</h2></div>
         <div class="medLijstCollum">
           <ul>
-            <li><a href="medicijnen/asprine.html">Asprine</a></li>
+            <li><a href="medicijnen/asprine.php">Asprine</a></li>
       			<li><a href="#">Abciximab</a></li>
-      			<li><a href="medicijnen/acarbose.html">Acarbose</a></li>
-      			<li><a href="medicijnen/acamprosaat.html">Acamprosaat</a></li>
+      			<li><a href="medicijnen/acarbose.php">Acarbose</a></li>
+      			<li><a href="medicijnen/acamprosaat.php">Acamprosaat</a></li>
       			<li><a href="#">Abacavir</a></li>
           </ul>
       </div>
@@ -228,7 +253,7 @@
           <ul>
             <li>pantoprazol</li>
             <li>Parlodel</li>
-            <li><a href="medicijnen/paracetamol.html">paracetamol</a></li>
+            <li><a href="medicijnen/paracetamol.php">paracetamol</a></li>
             <li>pentamidine</li>
             <li>perindopril</li>
           </ul>
@@ -348,7 +373,7 @@
       </div>
 
       <!--||Medijnen Lijst 25||-->
-      <div class="medLijstBottom">
+      <div class="medLijst">
       <div class="medLijstTitle"><h2>Y</h2></div>
         <div class="medLijstCollum">
           <ul>
@@ -362,7 +387,7 @@
       </div>
 
       <!--||Medijnen Lijst 26||-->
-      <div class="medLijstBottom">
+      <div class="medLijst">
       <div class="medLijstTitle"><h2>Z</h2></div>
         <div class="medLijstCollum">
           <ul>
@@ -375,8 +400,12 @@
       </div>
       </div>
 
-    </div>
-      <div class="footer"></div>
   </div>
+  </div>
+
+  <!--||Footer||-->
+  <footer><p>Appotheek schut || Oosteinderweg 180 || 1432 AR || Aalsmeer</p></footer>
+
+
 </body>
 </html>

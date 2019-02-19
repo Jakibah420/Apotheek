@@ -57,19 +57,6 @@ body {
   background-color: #6FAD56;
   color: white;
 }
-.alles{
-	margin-top:1%;
-	margin-left:2%;
-	color:white;
-	float: left;
-	width: 45%;
-	background-color:#3e4797;
-	text-align:center;
-}
-.content {
-	height: 100%;
-	width: 100%;
-}
 
 /* Main */
 
@@ -100,41 +87,14 @@ body {
   padding-bottom: 2%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-	float: left;
 }
-.medLijst{
-	height: auto;
-	width: 21%;
-	margin-left: 2%;
-	margin-right: 2%;
-	float: left;
-	margin-top: 2%;
+.info{
+  margin-left: 5%;
+  margin-right: 5%;
 }
-.medLijstTitle{
-	font-size: 20px;
-	text-align: center;
-	border-bottom: 1px solid black;
-}
-.medLijstTitle h2{
-	margin: 0px;
-}
-.medLijstCollum li{
-	text-align: center;
-	list-style-type: none;
-	font-size: 20px;
-}
-.medLijstCollum ul{
-	padding: 0px;
-}
-.medLijstCollum a{
-	text-decoration: none;
-	color: black;
-}
-.medLijstCollum a:hover{
-	color: #7cc75e;
-}
-.medLijstCollum li:hover{
-	color: #7cc75e;
+.info p{
+  margin: 0px;
+  font-size: 20px;
 }
 
 /* Footer */
@@ -146,6 +106,6 @@ footer {
   background-color: #619e49;
   color: white;
 	float: left;
-	margin-top: 2%;
+	margin-top: 100%;
 	font-size: 20px;
 }

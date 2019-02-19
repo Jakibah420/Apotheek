@@ -28,7 +28,7 @@
 		<div class="topnav">
 			<a class="active" href="#">Home</a>
 			<a href="">Service</a>
-			<a href="medicatie.php">Medicijnen Lijst</a>
+			<a href="medicatie.php">Medicijnen</a>
 			<a href="">Bestel</a>
 			<a href="">Contact</a>
 			<a href="login.php">Log in</a>
@@ -128,6 +128,7 @@
 		</div>
 		</div>
 
+		<!--||Footer||-->
 		<footer><p>Appotheek schut || Oosteinderweg 180 || 1432 AR || Aalsmeer</p></footer>
 
 
