@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php");
     require($_SERVER['DOCUMENT_ROOT']."/Apotheek/assets/include/header.php");
     include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
@@ -10,16 +10,16 @@
 
 <html>
 	<head>
-		<meta charset="utf-8">    
+		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><?php echo $pagetitle?></title>
 		<div class="Session">
 		<h1>Welkom <?php if ($gend == "Man") {echo "Dhr. ";} elseif ($gend == "Vrouw") {echo "Mevr. ";} elseif ($gend == "Anders") {echo "Dhr/Mevr ";} else {echo "ERR";}echo $sname_session, " ", $name_session; ?></h1>
 		</div>
 	</head>
-	
+
 	<body>
-		
+
 		<div class="topnav">
 			<a class="active" href="#home">Home</a>
 			<a href="">Service</a>
@@ -27,8 +27,8 @@
 			<a href="">Bestel</a>
 			<a href="">Contact</a>
 			<a href="logout.php">Log uit</a>
-		</div>	
-		
+		</div>
+
 		<div class="googlewrap shadow">
 			<div class="content1">
 				<p><b>Onze apotheek is gevesticht in Oostereinderweg 180, in Aalsmeer 1432AR</b></p>
@@ -48,16 +48,16 @@
 				Zaterdag: 11:00 tot 17:00<br>
 				Zondag: 11:00 tot 17:00<p>
 		</div>
-		
+
 		<div class="contentupperf">
 			<b>Nieuws.</b><br>
 			1. <?php echo $News1?><br>
 			2. <?php echo $News2?><br>
 			3. <?php echo $News3?><br>
 		</div>
-		
+
 		<footer class="footer">
-		
+
 		</footer>
 	</body>
 </html>
