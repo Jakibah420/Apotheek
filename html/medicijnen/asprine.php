@@ -21,11 +21,11 @@
 			</div>
 		</div>
 
-    <!--||Navigation||-->
+		<!--||Navigation||-->
 		<div class="topnav">
 			<a href="/Apotheek/html/index.php">Home</a>
 			<a href="/Apotheek/html/#">Service</a>
-			<a class="active" href="#">Medicijnen</a>
+			<a class="active" href="/Apotheek/html/medicatie.php">Medicijnen</a>
 			<a href="/Apotheek/html/#">Bestel</a>
 			<a href="/Apotheek/html/#">Contact</a>
 			<a href="/Apotheek/html/login.php">Log in</a>
@@ -36,7 +36,7 @@
     <div class="mainTitle"><h1>Aspirine<h1></div>
     <div class="mainContent">
     <div class="info"><p>
-      Acetylsalicylzuur wordt voorgeschreven
+      Aspirine wordt voorgeschreven
       bij de behandeling van verschillende
       klachten en aandoeningen. De dosering
       en het gebruik verschillen sterk per
