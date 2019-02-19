@@ -27,7 +27,7 @@
 
 		<!--||Navigation||-->
 		<div class="topnav">
-			<a href="/Apotheek/html/index.php">Home</a>
+			<a class="active">Home</a>
 			<a href="/Apotheek/html/service.php">Service</a>
 			<a href="/Apotheek/html/medicatie.php">Medicijnen</a>
 			<a href="/Apotheek/html/#">Bestel</a>

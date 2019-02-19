@@ -21,11 +21,11 @@
 			</div>
 		</div>
 
-    <!--||Navigation||-->
+		<!--||Navigation||-->
 		<div class="topnav">
 			<a href="/Apotheek/html/index.php">Home</a>
-			<a href="/Apotheek/html/#">Service</a>
-			<a class="active" href="#">Medicijnen</a>
+			<a href="/Apotheek/html/service.php">Service</a>
+			<a class="active">Medicijnen</a>
 			<a href="/Apotheek/html/#">Bestel</a>
 			<a href="/Apotheek/html/#">Contact</a>
 			<a href="/Apotheek/html/login.php">Log in</a>
