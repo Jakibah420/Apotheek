@@ -12,6 +12,7 @@
 		<meta name="author" content="Casey Kruijer">
 		<meta name="viewport"content="width=device-witdth, initial-scale=1-0">
 		<link rel="stylesheet" href="/Apotheek/bin/css/index.css">
+		<link rel="icon" type="image/png" href="/Apotheek/assets/img/MiniLogo.png">
 	</head>
 
 	<body>
