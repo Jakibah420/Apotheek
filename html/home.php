@@ -1,7 +1,7 @@
 <?php
-	include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php");
-    require($_SERVER['DOCUMENT_ROOT']."/Apotheek/assets/include/header.php");
-    include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
+	//include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php");
+    //require($_SERVER['DOCUMENT_ROOT']."/Apotheek/assets/include/header.php");
+  //  include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
 	$pagetitle = ucwords(basename(__FILE__, '.php'));
 	$News1 = "Tijdelijk grotere flesjes ibuprofen nu 500 ml inplaats van flesjes van 250 ml.";
 	$News2 = "Deze maand iberogast de 2de fles voor de helft van de prijs.";
@@ -16,6 +16,7 @@
 		<div class="Session">
 		<h1>Welkom <?php if ($gend == "Man") {echo "Dhr. ";} elseif ($gend == "Vrouw") {echo "Mevr. ";} elseif ($gend == "Anders") {echo "Dhr/Mevr ";} else {echo "ERR";}echo $sname_session, " ", $name_session; ?></h1>
 		</div>
+		<link rel="stylesheet" href="/Apotheek/bin/css/home.css">
 	</head>
 
 	<body>

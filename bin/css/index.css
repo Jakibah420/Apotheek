@@ -45,7 +45,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
@@ -57,6 +57,9 @@ body {
   background-color: #6FAD56;
   color: white;
 }
+
+/* main */
+
 .content {
 	height: 100%;
 	width: 100%;
@@ -99,6 +102,8 @@ body {
 	border-bottom-right-radius: 20px;
 	padding-top: 2%;
 }
+
+/* News Slider */
 .newsSlider{
 	height: 95%;
 	width: 90%;

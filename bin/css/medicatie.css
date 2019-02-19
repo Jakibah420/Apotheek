@@ -45,7 +45,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
@@ -56,19 +56,6 @@ body {
 .topnav a.active {
   background-color: #6FAD56;
   color: white;
-}
-.alles{
-	margin-top:1%;
-	margin-left:2%;
-	color:white;
-	float: left;
-	width: 45%;
-	background-color:#3e4797;
-	text-align:center;
-}
-.content {
-	height: 100%;
-	width: 100%;
 }
 
 /* Main */

@@ -17,23 +17,25 @@
 
 	<body>
 
+		<!--||Header||-->
 		<div class="header">
-			<img src="/Apotheek/assets/img/logo2.png" alt="Logo Apotheek Schut" id="logo">
+			<img src="/Apotheek/assets/img/logo2.png"  alt="Logo Apotheek Schut" id="logo">
 			<div class="user">
 				<h1>Welcome <?php// echo $sname_session, " ", $name_session; ?></h1>
 			</div>
 		</div>
 
-
+		<!--||Navigation||-->
 		<div class="topnav">
-			<a class="active" href="#">Home</a>
-			<a href="">Service</a>
-			<a href="medicatie.php">Medicijnen</a>
-			<a href="">Bestel</a>
-			<a href="">Contact</a>
-			<a href="login.php">Log in</a>
+			<a href="/Apotheek/html/index.php">Home</a>
+			<a href="/Apotheek/html/service.php">Service</a>
+			<a href="/Apotheek/html/medicatie.php">Medicijnen</a>
+			<a href="/Apotheek/html/#">Bestel</a>
+			<a href="/Apotheek/html/#">Contact</a>
+			<a href="/Apotheek/html/login.php">Log in</a>
 		</div>
 
+		<!--||Main||-->
 		<div class="content">
 
 		<!--||Left Content||-->
@@ -47,6 +49,7 @@
 				</div>
 			</div>
 
+		<!--||Openings Tijden||-->
 			<div class="opening">
 				<div class="opTitle"><h1>Openings Tijden</h1></div>
 
@@ -130,7 +133,6 @@
 
 		<!--||Footer||-->
 		<footer><p>Appotheek schut || Oosteinderweg 180 || 1432 AR || Aalsmeer</p></footer>
-
 
 	</body>
 </html>
