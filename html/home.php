@@ -1,7 +1,7 @@
 <?php
-	//include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php");
-    //require($_SERVER['DOCUMENT_ROOT']."/Apotheek/assets/include/header.php");
-  //  include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
+	include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php");
+    require($_SERVER['DOCUMENT_ROOT']."/Apotheek/assets/include/header.php");
+    include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
 	$pagetitle = ucwords(basename(__FILE__, '.php'));
 	$News1 = "Tijdelijk grotere flesjes ibuprofen nu 500 ml inplaats van flesjes van 250 ml.";
 	$News2 = "Deze maand iberogast de 2de fles voor de helft van de prijs.";
