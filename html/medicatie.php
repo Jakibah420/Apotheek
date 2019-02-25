@@ -27,8 +27,7 @@
 			<a href="/Apotheek/html/service.php">Service</a>
 			<a class="active">Medicijnen</a>
       <a href="/Apotheek/html/voorlichting.php">Voorlichting</a>
-			<a href="/Apotheek/html/#">Bestel</a>
-			<a href="/Apotheek/html/#">Contact</a>
+			<a href="/Apotheek/html/bestel.php">Bestel</a>
 			<a href="/Apotheek/html/login.php">Log in</a>
 		</div>
 
