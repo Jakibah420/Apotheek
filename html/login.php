@@ -1,21 +1,39 @@
 <?php 
     include($_SERVER['DOCUMENT_ROOT']."/Apotheek/CONSTANTS.php");
-    require($_SERVER['DOCUMENT_ROOT']."/Apotheek/assets/include/header.php");
     include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/db.php");
-    $pagetitle = ucwords(basename(__FILE__, '.php'));
-
-    if(isset($_SESSION['username'])){header("location:home.php");die();}
+    if(isset($_SESSION['username'])){header("location:index.php");die();}
 ?>
 
 <html>
     <head>
-        <title><?php echo $pagetitle?></title>
-        <meta charset="utf-8">    
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Apotheek Schut</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="dit is het appotheek van meneer schut">
+		<meta name="keywords" content="schut, appotheek, medicijnen, Aalsmeer ">
+		<meta name="viewport"content="width=device-witdth, initial-scale=1-0">
+		<link rel="stylesheet" href="/Apotheek/bin/css/index.css">
+        <link rel="stylesheet" href="/Apotheek/bin/css/style.css">
+        <link rel="stylesheet" href="/Apotheek/bin/css/footeroverride.css">
+        <link rel="icon" type="image/png" href="/Apotheek/assets/img/MiniLogo.png">
         <script src="../bin/scripts/login.js"></script>
-    </head>
+	</head>
 
-    <body style="background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/Apotheek/assets/img/login.jpg');background-repeat:no-repeat;background-size: cover;">
+    <body>
+    <!--||Header||-->
+        <div class="header">
+			<img src="/Apotheek/assets/img/logoApo.png"  alt="Logo Apotheek Schut" id="logo">
+			<div class="user"></div>
+        </div>
+    <!--||Navigation||-->
+		<div class="topnav">
+			<a href="index.php">Home</a>
+			<a href="service.php">Service</a>
+			<a href="medicatie.php">Medicijnen</a>
+			<a href="voorlichting.php">Voorlichting</a>
+			<a class="disabled" href="#">Bestel</a>
+			<a class="disabled" href="#">Contact</a>
+        </div>
+        
     <div id="errform" class="errorformhead">
         <div class="errorformheader"></div>
         <div class="errorform">
@@ -68,6 +86,9 @@
         </div> 
     </div>
 
-    </body>
+    
+		<!--||Footer||-->
+		<footer><p>Appotheek schut || Oosteinderweg 180 || 1432 AR || Aalsmeer</p></footer>
 
+    </body>
 </html>

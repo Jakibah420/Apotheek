@@ -3,9 +3,9 @@
    if(session_id() == '' || !isset($_SESSION)) {
     // session isn't started
     session_start();
-}
+   }
    
-
+   if(isset($_SESSION['username'])){
    $serverLink = mysqli_connect($host, $username, $password, $db);
    $user_check = $_SESSION['username'];
    $ses_sql = mysqli_query($serverLink, "SELECT email FROM users WHERE email = '$user_check' ");
@@ -25,12 +25,9 @@
    $postal = $rowt['postal'];
    $birthdate = $rowt['birthdate'];
    $activation = $rowt['activation_date'];
-    
+   }
    
-   if(!isset($_SESSION['username'])){
-      header("location:login.php");
-      die();
-   } if(isset($_SESSION['username']) && !isset($rowt['email'])){
+   if(isset($_SESSION['username']) && !isset($rowt['email'])){
       header("location:setup.php");
       die();
    }
