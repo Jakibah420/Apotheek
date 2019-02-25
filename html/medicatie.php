@@ -15,7 +15,7 @@
 
     <!--||Header||-->
 		<div class="header">
-			<img src="/Apotheek/assets/img/logo2.png" alt="Logo Apotheek Schut" id="logo">
+			<img src="/Apotheek/assets/img/logoApo.png" alt="Logo Apotheek Schut" id="logo">
 			<div class="user">
 				<h1>Welcome <?php// echo $sname_session, " ", $name_session; ?></h1>
 			</div>
@@ -26,6 +26,7 @@
 			<a href="/Apotheek/html/index.php">Home</a>
 			<a href="/Apotheek/html/service.php">Service</a>
 			<a class="active">Medicijnen</a>
+      <a href="/Apotheek/html/voorlichting.php">Voorlichting</a>
 			<a href="/Apotheek/html/#">Bestel</a>
 			<a href="/Apotheek/html/#">Contact</a>
 			<a href="/Apotheek/html/login.php">Log in</a>
@@ -37,9 +38,9 @@
       <div class="mainContent">
 
       <!--||Medicijnen Lijst 1||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>A</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>A</h2></div>
+        <div class="ListCollum">
           <ul>
             <li><a href="medicijnen/asprine.php">Asprine</a></li>
       			<li><a href="#">Abciximab</a></li>
@@ -51,9 +52,9 @@
       </div>
 
       <!--||Medijnen Lijst 2||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>B</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>B</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Bromocriptine</li>
             <li>Bromperidol</li>
@@ -65,9 +66,9 @@
       </div>
 
       <!--||Medijnen Lijst 3||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>C</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>C</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>cabazitaxel</li>
             <li>cabergoline</li>
@@ -79,9 +80,9 @@
       </div>
 
       <!--||Medijnen Lijst 4||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>D</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>D</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Dacogen</li>
             <li>danazol</li>
@@ -93,9 +94,9 @@
       </div>
 
       <!--||Medijnen Lijst 5||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>E</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>E</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Efient</li>
             <li>Elmiron</li>
@@ -107,9 +108,9 @@
       </div>
 
       <!--||Medijnen Lijst 6||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>F</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>F</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>febuxostat</li>
             <li>fentolamine</li>
@@ -121,9 +122,9 @@
       </div>
 
       <!--||Medijnen Lijst 7||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>G</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>G</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Glepark</li>
             <li>Grinterol</li>
@@ -135,9 +136,9 @@
       </div>
 
       <!--||Medijnen Lijst 8||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>H</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>H</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Haldol</li>
             <li>heparine</li>
@@ -149,9 +150,9 @@
       </div>
 
       <!--||Medijnen Lijst 9||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>I</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>I</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>idelalisib</li>
             <li>icatibant</li>
@@ -163,9 +164,9 @@
       </div>
 
       <!--||Medijnen Lijst 10||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>J</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>J</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Jext</li>
             <li>Juluca</li>
@@ -177,9 +178,9 @@
       </div>
 
       <!--||Medijnen Lijst 11||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>K</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>K</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Keppra</li>
             <li>Kefzol</li>
@@ -191,9 +192,9 @@
       </div>
 
       <!--||Medijnen Lijst 12||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>L</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>L</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Lanoxin</li>
             <li>Lendormin</li>
@@ -205,9 +206,9 @@
       </div>
 
       <!--||Medijnen Lijst 13||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>M</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>M</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Matever</li>
             <li>Marinol</li>
@@ -219,9 +220,9 @@
       </div>
 
       <!--||Medijnen Lijst 14||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>N</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>N</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>naltrexon</li>
             <li>naproxen</li>
@@ -233,9 +234,9 @@
       </div>
 
       <!--||Medijnen Lijst 15||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>O</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>O</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Olumiant</li>
             <li>omeprazol</li>
@@ -247,9 +248,9 @@
       </div>
 
       <!--||Medijnen Lijst 16||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>P</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>P</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>pantoprazol</li>
             <li>Parlodel</li>
@@ -261,9 +262,9 @@
       </div>
 
       <!--||Medijnen Lijst 17||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>Q</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>Q</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Qlaira</li>
             <li>quinapril</li>
@@ -275,9 +276,9 @@
       </div>
 
       <!--||Medijnen Lijst 18||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>R</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>R</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>ramipril</li>
             <li>Rasilez</li>
@@ -289,9 +290,9 @@
       </div>
 
       <!--||Medijnen Lijst 19||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>S</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>S</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Salfuler</li>
             <li>Salagen</li>
@@ -303,9 +304,9 @@
       </div>
 
       <!--||Medijnen Lijst 20||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>T</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>T</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Tafinlar</li>
             <li>Tadim</li>
@@ -317,9 +318,9 @@
       </div>
 
       <!--||Medijnen Lijst 21||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>U</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>U</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Uptravi</li>
             <li>Ultralan</li>
@@ -331,9 +332,9 @@
       </div>
 
       <!--||Medijnen Lijst 22||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>V</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>V</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>valsartan</li>
             <li>valeriaan</li>
@@ -345,9 +346,9 @@
       </div>
 
       <!--||Medijnen Lijst 23||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>W</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>W</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Wellvone</li>
             <li>Wormkuur</li>
@@ -359,9 +360,9 @@
       </div>
 
       <!--||Medijnen Lijst 24||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>X</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>X</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Xanax</li>
             <li>Xagrid</li>
@@ -373,9 +374,9 @@
       </div>
 
       <!--||Medijnen Lijst 25||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>Y</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>Y</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Yondelis</li>
             <li>Yomesan</li>
@@ -387,9 +388,9 @@
       </div>
 
       <!--||Medijnen Lijst 26||-->
-      <div class="medLijst">
-      <div class="medLijstTitle"><h2>Z</h2></div>
-        <div class="medLijstCollum">
+      <div class="List">
+      <div class="ListTitle"><h2>Z</h2></div>
+        <div class="ListCollum">
           <ul>
             <li>Zaldiar</li>
             <li>Zeffix</li>

@@ -25,8 +25,8 @@
 		<div class="topnav">
 			<a href="/Apotheek/html/index.php">Home</a>
 			<a href="/Apotheek/html/service.php">Service</a>
-			<a class="active" href="/Apotheek/html/medicatie.php">Medicijnen</a>
-			<a href="/Apotheek/html/voorlichting.php">Voorlichting</a>
+      <a href="/Apotheek/html/medicatie.php">Medicijnen</a>
+			<a class="active" href="/Apotheek/html/voorlichting.php">Voorlichting</a>
 			<a href="/Apotheek/html/#">Bestel</a>
 			<a href="/Apotheek/html/#">Contact</a>
 			<a href="/Apotheek/html/login.php">Log in</a>
@@ -34,14 +34,23 @@
 
 	<!--||Main||-->
   <div class="main">
-    <div class="mainTitle"><h1>Acarbose<h1></div>
+    <div class="mainTitle"><h1>Bloedarmoede<h1></div>
     <div class="mainContent">
     <div class="info"><p>
-      Acarbose is een verlager van het
-      bloedglucose. Het remt de afbraak van
-      koolhydraten in de darm, waardoor de
-      glucose langzaam vrijkomt en dus
-      langzamer in het bloed terechtkomt.
+      Bloedarmoede betekent dat er te weinig rode bloedcellen
+      in het bloed zitten of dat de rode bloedcellen niet goed werken.
+       Daardoor kan het bloed minder zuurstof vervoeren en kunt u
+       verschillende klachten krijgen.
+      In de rode bloedcel zit hemoglobine (Hb).
+      Hemoglobine is nodig om zuurstof te vervoeren vanuit
+      uw longen naar alle delen van het lichaam.
+      Om te bepalen of u bloedarmoede heeft,
+       wordt gekeken naar de waarde van het Hb in het bloed.
+      Mannen hebben bloedarmoede als het Hb lager
+      is dan 8,5 mmol/l.Vrouwen hebben bloedarmoede als
+      het Hb lager is dan 7,5 mmol/l. Voor zwangeren en kinderen
+      gelden andere waarden.
+      De medische term voor bloedarmoede is anemie.
   <p></div>
   </div>
   </div>

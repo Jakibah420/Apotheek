@@ -5,7 +5,7 @@
 <!doctype html>
 <html lang="nl">
 	<head>
-		<title>Appotheek Schut</title>
+		<title>Apotheek Schut</title>
 		<meta charset="UTF-8">
 		<meta name="description" content="dit is het appotheek van meneer schut">
 		<meta name="keywords" content="schut, appotheek, medicijnen, Aalsmeer ">
@@ -19,7 +19,7 @@
 
 		<!--||Header||-->
 		<div class="header">
-			<img src="/Apotheek/assets/img/logo2.png"  alt="Logo Apotheek Schut" id="logo">
+			<img src="/Apotheek/assets/img/logoApo.png"  alt="Logo Apotheek Schut" id="logo">
 			<div class="user">
 				<h1>Welcome <?php// echo $sname_session, " ", $name_session; ?></h1>
 			</div>
@@ -30,6 +30,7 @@
 			<a class="active">Home</a>
 			<a href="/Apotheek/html/service.php">Service</a>
 			<a href="/Apotheek/html/medicatie.php">Medicijnen</a>
+			<a href="/Apotheek/html/voorlichting.php">Voorlichting</a>
 			<a href="/Apotheek/html/#">Bestel</a>
 			<a href="/Apotheek/html/#">Contact</a>
 			<a href="/Apotheek/html/login.php">Log in</a>

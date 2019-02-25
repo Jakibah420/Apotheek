@@ -25,8 +25,8 @@
 		<div class="topnav">
 			<a href="/Apotheek/html/index.php">Home</a>
 			<a href="/Apotheek/html/service.php">Service</a>
-			<a class="active" href="/Apotheek/html/medicatie.php">Medicijnen</a>
-			<a href="/Apotheek/html/voorlichting.php">Voorlichting</a>
+      <a href="/Apotheek/html/medicatie.php">Medicijnen</a>
+			<a class="active" href="/Apotheek/html/voorlichting.php">Voorlichting</a>
 			<a href="/Apotheek/html/#">Bestel</a>
 			<a href="/Apotheek/html/#">Contact</a>
 			<a href="/Apotheek/html/login.php">Log in</a>
@@ -34,14 +34,21 @@
 
 	<!--||Main||-->
   <div class="main">
-    <div class="mainTitle"><h1>Acarbose<h1></div>
+    <div class="mainTitle"><h1>Astma<h1></div>
     <div class="mainContent">
     <div class="info"><p>
-      Acarbose is een verlager van het
-      bloedglucose. Het remt de afbraak van
-      koolhydraten in de darm, waardoor de
-      glucose langzaam vrijkomt en dus
-      langzamer in het bloed terechtkomt.
+      Astma is een aandoening van de luchtwegen (buisjes in de longen).
+       Normaal zijn de luchtwegen wijd genoeg om gemakkelijk in en uit
+        te ademen. Bij astma zijn de luchtwegen van tijd tot tijd vernauwd.
+      Er kan minder lucht doorheen, het ademen gaat moeilijker en u wordt benauwd.
+      De vernauwing van de luchtwegen komt doordat ze overgevoelig
+       zijn voor bepaalde prikkels. Als reactie op de prikkels trekken de
+       spiertjes rond de luchtwegen samen. Het slijmvlies langs de binnenkant
+        van de luchtwegen raakt ontstoken: het zwelt op en produceert meer
+        slijm. Daardoor worden de luchtwegen nauwer.
+      Astma begint meestal op de kinderleeftijd. Maar het kan ook
+       pas voor het eerst beginnen bij mensen die ouder zijn dan 50 jaar.
+
   <p></div>
   </div>
   </div>

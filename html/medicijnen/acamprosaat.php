@@ -15,7 +15,7 @@
 
     <!--||Header||-->
 		<div class="header">
-			<img src="/Apotheek/assets/img/logo2.png" alt="Logo Apotheek Schut" id="logo">
+			<img src="/Apotheek/assets/img/logoApo.png" alt="Logo Apotheek Schut" id="logo">
 			<div class="user">
 				<h1>Welcome <?php// echo $sname_session, " ", $name_session; ?></h1>
 			</div>
@@ -24,8 +24,9 @@
     <!--||Navigation||-->
 		<div class="topnav">
 			<a href="/Apotheek/html/index.php">Home</a>
-			<a href="/Apotheek/html/#">Service</a>
+			<a href="/Apotheek/html/service.php">Service</a>
 			<a class="active" href="/Apotheek/html/medicatie.php">Medicijnen</a>
+			<a href="/Apotheek/html/voorlichting.php">Voorlichting</a>
 			<a href="/Apotheek/html/#">Bestel</a>
 			<a href="/Apotheek/html/#">Contact</a>
 			<a href="/Apotheek/html/login.php">Log in</a>
@@ -51,9 +52,3 @@
 
 </body>
 </html>
-      Acamprosaat vermindert de behoefte aan alcohol.
-Hulpmiddel bij ontwenningskuur om van de alcohol af te komen.
-Na 4 weken weet u of dit medicijn bij u werkt. Als het werkt, moet u het meestal een jaar gebruiken.
-Ga door met het gebruik van acamprosaat, ook al drinkt u toch een keer alcohol.
-Bijwerkingen: maagdarmklachten, zoals diarree, buikpijn en misselijkheid.
-Neem het middel in met wat voedsel. Dan heeft u minder last van maagdarmklachten.
