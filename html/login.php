@@ -30,7 +30,7 @@
 			<a href="service.php">Service</a>
 			<a href="medicatie.php">Medicijnen</a>
 			<a href="voorlichting.php">Voorlichting</a>
-			<a class="disabled" href="#">Bestel</a>
+			<a href="bestel.php">Bestel</a>
 			<a class="disabled" href="#">Contact</a>
         </div>
         

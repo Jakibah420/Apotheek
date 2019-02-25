@@ -23,22 +23,13 @@
 
 		<!--||Navigation||-->
 		<div class="topnav">
-<<<<<<< HEAD
 			<a href="../index.php" >Home</a>
 			<a href="../service.php">Service</a>
 			<a href="../medicatie.php">Medicijnen</a>
 			<a href="../voorlichting.php">Voorlichting</a>
-			<a class="disabled" href="#">Bestel</a>
+			<a href="bestel.php">Bestel</a>
 			<a class="disabled" href="#">Contact</a>
 			<a style="float:right;margin-right:8%;" <?php if(!isset($_SESSION['username'])){echo"href='login.php'";}else{echo"href='logout.php'";}?>><?php if(!isset($_SESSION['username'])){echo"Log in / Registreer";}else{echo"Log uit";}?></a>
-=======
-			<a href="/Apotheek/html/index.php">Home</a>
-			<a href="/Apotheek/html/service.php">Service</a>
-      <a href="/Apotheek/html/medicatie.php">Medicijnen</a>
-			<a class="active" href="/Apotheek/html/voorlichting.php">Voorlichting</a>
-			<a href="/Apotheek/html/bestel.php">Bestel</a>
-			<a href="/Apotheek/html/login.php">Log in</a>
->>>>>>> 9e8a4c025f150ff5e92afb98aec7703f5f856945
 		</div>
 
 	<!--||Main||-->

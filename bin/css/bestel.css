@@ -1,65 +1,4 @@
-html{
-	font-family:"yu gothic";
-	background-image: url("/Apotheek/assets/img/login.jpg");
-	background-repeat: no-repeat;
-	margin: 0px;
-	}
-
-body {
-	margin:0px;
-  width: 100%;
-  height: 100%;
-  }
-
-/* Header */
-
-.header{
-	background-color: white;
-	height: 100px;
-}
-.header img{
-	height: 100%;
-	width: auto;
-}
-.header h1{
-	margin-top: 20px;
-	margin-right: 200px;
-	font-size: 40px;
-	margin-bottom: 0px;
-}
-.user{
-	float: right;
-}
-
-/* Navigation */
-
- .topnav {
-  margin:0px;
-  overflow: hidden;
-  background-color: #619e49;
-	width: 100%;
-}
-.topnav a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.topnav a:hover {
-  background-color: #7cc75e;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #6FAD56;
-  color: white;
-}
-
 /* Main */
-
 .main{
   height: auto;
   width: 40%;
@@ -108,10 +47,10 @@ body {
 	margin-left: 20px;
 }
 .Vnaam{
-	height: 20px;
+
 }
 .Anaam{
-	height: 20px;
+
 	margin-right: 40%;
 }
 .email{
@@ -153,8 +92,8 @@ body {
 	background-color: #7cc75e;
 	color: black;
 }
-/* Footer */
 
+/* Footer OVERRIDE*/
 footer {
 	height: auto;
 	width: 100%;
@@ -162,6 +101,6 @@ footer {
   background-color: #619e49;
   color: white;
 	float: left;
-	margin-top: 100%;
+	margin-top: 20%;
 	font-size: 20px;
 }

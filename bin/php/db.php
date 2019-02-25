@@ -60,7 +60,7 @@ if (isset($_POST['login_user'])) {
 				header("location:setup.php");
 				die();
 		 	} else {
-				header('location: home.php'); //NAAR USER INTERFACE!
+				header('location: index.php'); //NAAR USER INTERFACE!
 			 }
 		}	else {
 			$showDivFlag=true;
@@ -86,11 +86,11 @@ if (isset($_POST['setup_user'])) {
 		
 
 		if (count($errors) == 0) {
-			$query = "INSERT INTO userInfo (email, nam, ename, surname, bsn, gender, mobilephone, phone, adres, postal, birthdate) 
+			$query = "INSERT INTO userinfo (email, nam, ename, surname, bsn, gender, mobilephone, phone, adres, postal, birthdate) 
 					  VALUES('$email', '$name', '$ename', '$srname', '$bsn', '$gender', '$mobilephone', '$phone', '$adres', '$postal', '$birth')";
 			mysqli_query($serverLink, $query);
 			if(isset($_SESSION['username']) && !isset($rowt['email'])){
-				header("location:gebruiker.php");
+				header("location:index.php");
 		 	}
 		} else {
 			$showDivFlag=true;

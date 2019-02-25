@@ -6,7 +6,7 @@
     $pagetitle = ucwords(basename(__FILE__, '.php'));
     $set_sql = mysqli_query($serverLink, "SELECT email FROM userInfo WHERE email = '$user_check' ");
     $rowt = mysqli_fetch_array($set_sql,MYSQLI_ASSOC);
-    if(isset($_SESSION['username']) && isset($rowt['email'])){header("location:home.php");die();}
+    if(isset($_SESSION['username']) && isset($rowt['email'])){header("location:index.php");die();}
     if(!isset($_SESSION['username'])){header("location:login.php");die();}
 ?>
 

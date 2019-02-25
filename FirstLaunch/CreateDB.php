@@ -36,7 +36,7 @@
             if ($serverLink->query($sql) === TRUE) {
                 echo "Table users created successfully";
                 echo "Creating UserInfo table...";
-				$sql ="CREATE TABLE userInfo(
+				$sql ="CREATE TABLE userinfo(
 				id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 				email VARCHAR(100) NOT NULL,
 				nam VARCHAR(100) NOT NULL,
@@ -52,9 +52,9 @@
 				activation_date TIMESTAMP
 				)";
 				  if ($serverLink->query($sql) === TRUE) {
-					echo "Table userInfo created successfully";
+					echo "Table userinfo created successfully";
 				  }else{
-					  echo "Table userInfo creation failed";
+					  echo "Table userinfo creation failed";
 				  }
             } else {
                 echo "Error creating table: " . $serverLink->error;
