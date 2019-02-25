@@ -1,0 +1,167 @@
+html{
+	font-family:"yu gothic";
+	background-image: url("/Apotheek/assets/img/login.jpg");
+	background-repeat: no-repeat;
+	margin: 0px;
+	}
+
+body {
+	margin:0px;
+  width: 100%;
+  height: 100%;
+  }
+
+/* Header */
+
+.header{
+	background-color: white;
+	height: 100px;
+}
+.header img{
+	height: 100%;
+	width: auto;
+}
+.header h1{
+	margin-top: 20px;
+	margin-right: 200px;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+.user{
+	float: right;
+}
+
+/* Navigation */
+
+ .topnav {
+  margin:0px;
+  overflow: hidden;
+  background-color: #619e49;
+	width: 100%;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #7cc75e;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #6FAD56;
+  color: white;
+}
+
+/* Main */
+
+.main{
+  height: auto;
+  width: 40%;
+  margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mainTitle{
+  background-color: #619e49;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.mainTitle h1{
+  margin: 0px;
+}
+.mainContent{
+  height: auto;
+	width: 100%;
+  background-color: rgba(146, 146, 146, 0.288);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+	float: left;
+}
+.formulier{
+  margin-left: 5%;
+  margin-right: 5%;
+	float: left;
+}
+.formulier p{
+  margin: 0px;
+  font-size: 20px;
+}
+.voornaam{
+	float: left;
+}
+.achternaam{
+	float: left;
+	margin-left: 20px;
+}
+.Vnaam{
+	height: 20px;
+}
+.Anaam{
+	height: 20px;
+	margin-right: 40%;
+}
+.email{
+	float: left;
+	margin-right: 400px;
+	margin-top: 20px;
+	width: 100%;
+}
+.mail{
+	height: 20px;
+	width: 53%;
+}
+.infoText{
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+.medText{
+	width: 100%;
+}
+#btnSend{
+	font-family: "yu gothic";
+	height: 40px;
+	background-color: #619e49;
+	float: left;
+	margin-top: 10px;
+	border-radius: 20px;
+	color: white;
+	display: inline-block;
+	font-size: 20px;
+	box-shadow: none;
+	text-decoration: none;
+	border: none;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#btnSend:hover{
+	background-color: #7cc75e;
+	color: black;
+}
+/* Footer */
+
+footer {
+	height: auto;
+	width: 100%;
+  text-align: center;
+  background-color: #619e49;
+  color: white;
+	float: left;
+	margin-top: 100%;
+	font-size: 20px;
+}

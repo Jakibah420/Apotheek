@@ -27,6 +27,7 @@ include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
 			
     <!--||Navigation||-->
 		<div class="topnav">
+<<<<<<< HEAD
 			<a href="index.php">Home</a>
 			<a class="active" href="service.php">Service</a>
 			<a href="medicatie.php">Medicijnen</a>
@@ -34,6 +35,14 @@ include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
 			<a class="disabled" href="#">Bestel</a>
 			<a class="disabled" href="#">Contact</a>
 			<a style="float:right;margin-right:8%;" <?php if(!isset($_SESSION['username'])){echo"href='login.php'";}else{echo"href='logout.php'";}?>><?php if(!isset($_SESSION['username'])){echo"Log in / Registreer";}else{echo"Log uit";}?></a>
+=======
+			<a href="/Apotheek/html/index.php">Home</a>
+			<a class="active">Service</a>
+			<a href="/Apotheek/html/medicatie.php">Medicijnen</a>
+			<a href="/Apotheek/html/voorlichting.php">Voorlichting</a>
+			<a href="/Apotheek/html/bestel.php">Bestel</a>
+			<a href="/Apotheek/html/login.php">Log in</a>
+>>>>>>> 9e8a4c025f150ff5e92afb98aec7703f5f856945
 		</div>
 
       <!--||Main||-->

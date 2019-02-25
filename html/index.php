@@ -13,6 +13,41 @@ include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
 		<link rel="stylesheet" href="/Apotheek/bin/css/index.css">
 		<link rel="stylesheet" href="/Apotheek/bin/css/style.css">
 		<link rel="icon" type="image/png" href="/Apotheek/assets/img/MiniLogo.png">
+
+		<script type="text/javascript">
+
+		// Slider Code //
+
+		var i = 0;
+		var images = [];
+		var time = 3000;
+
+		// Image List
+		images[0] = "/Apotheek/assets/img/nieuws/news1.png";
+		images[1] = "/Apotheek/assets/img/nieuws/news2.png";
+		images[2] = "/Apotheek/assets/img/nieuws/news3.png";
+
+		// Change Image
+		function changeImg(){
+			document.slide.src = images[i];
+
+
+			if(i < images.length - 1){
+
+			  i++;
+			} else {
+
+				i = 0;
+			}
+
+			// timer
+			setTimeout("changeImg()", 5000);
+		}
+
+		window.onload=changeImg;
+
+		</script>
+
 	</head>
 
 	<body>
@@ -28,25 +63,35 @@ include($_SERVER['DOCUMENT_ROOT']."/Apotheek/bin/php/handlers/session.php");
 		<!--||Navigation||-->
 		<div class="topnav">
 			<a class="active">Home</a>
+<<<<<<< HEAD
 			<a href="service.php">Service</a>
 			<a href="medicatie.php">Medicijnen</a>
 			<a href="voorlichting.php">Voorlichting</a>
 			<a class="disabled" href="#">Bestel</a>
 			<a class="disabled" href="#">Contact</a>
 			<a style="float:right;margin-right:8%;" <?php if(!isset($_SESSION['username'])){echo"href='login.php'";}else{echo"href='logout.php'";}?>><?php if(!isset($_SESSION['username'])){echo"Log in / Registreer";}else{echo"Log uit";}?></a>
+=======
+			<a href="/Apotheek/html/service.php">Service</a>
+			<a href="/Apotheek/html/medicatie.php">Medicijnen</a>
+			<a href="/Apotheek/html/voorlichting.php">Voorlichting</a>
+			<a href="/Apotheek/html/bestel.php">Bestel</a>
+			<a href="/Apotheek/html/login.php">Log in</a>
+>>>>>>> 9e8a4c025f150ff5e92afb98aec7703f5f856945
 		</div>
 
 		<!--||Main||-->
 		<div class="content">
 
 		<!--||Left Content||-->
+
+		<!--||News||-->
 		<div class="leftContent">
 			<div class="news">
 				<div class="newsTitle"><h1>Nieuws</h1></div>
 				<div class="newsContent">
 						<div class="newsSlider">
-						<p>Hier Moet Nog Een Image Slider
-							komen Met Nieuws</P></div>
+							<img name="slide" class="imgSlider" width="100%" height="100%">
+						</div>
 				</div>
 			</div>
 
